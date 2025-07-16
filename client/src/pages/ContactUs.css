@@ -1,0 +1,71 @@
+.contactus-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  background-color: #fffdf9;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contactus-container h1 {
+  font-size: 2.5rem;
+  color: #ff5722; 
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contactus-intro {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.contactus-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactus-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.contactus-form label span {
+  color: red;
+  margin-left: 4px;
+}
+
+.contactus-form input,
+.contactus-form textarea {
+  margin-top: 8px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  resize: none;
+  transition: border-color 0.2s ease;
+}
+
+.contactus-form input:focus,
+.contactus-form textarea:focus {
+  border-color: #0f766e;
+  outline: none;
+}
+
+.contactus-form button {
+  background-color: #ff5722; 
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactus-form button:hover {
+  background-color: #e64a19;
+}
